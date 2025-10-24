@@ -1,0 +1,151 @@
+Package: appfilter
+Version: 6.1.6-r1
+Depends: libc, libubox20240329, libubus20250102, libuci20250120, libpthread, libjson-c5, libblobmsg-json20240329
+Source: feeds/base/OpenAppFilter/open-app-filter
+SourceName: appfilter
+Section: TT Apps
+SourceDateEpoch: 1760108424
+Architecture: x86_64
+Installed-Size: 102400
+Filename: /root/paquetes/appfilter_6.1.6-r1_x86_64.ipk
+Size: 32666
+MD5Sum: 591434841ed5774819b5d1cab398e0ff
+SHA256sum: 4c4f397c84c4466f8b22e9063a9832bb9cf4c6f269be1197629385f5aaf5733c
+Description:  openappfilter app
+
+Package: bandix
+Version: 0.7.3-r1
+Depends: libc
+Source: /root/app/VsCodeProjects/openwrt-packages-custom/openwrt-bandix/openwrt-bandix
+SourceName: bandix
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1761207186
+Maintainer: timsaya
+Architecture: x86_64
+Installed-Size: 2385920
+Filename: /root/paquetes/bandix_0.7.3-r1_x86_64.ipk
+Size: 1008740
+MD5Sum: 84bf3cda375326554a78cf6fe56372f3
+SHA256sum: a77bbc8101d0de8fe0dda36292313088c7f478194d1c772b047998777e69dd3a
+Description:  Bandix core service for network traffic monitoring
+
+Package: internet-detector
+Version: 1.7.0-r1
+Depends: libc, lua, luaposix, libuci-lua
+Source: /mounts/storage/Projects/OpenWRT/Projects/luci-app-internet-detector/_GitHub/internet-detector/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1759610111
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 92160
+Filename: /root/paquetes/internet-detector_1.7.0-r1_all.ipk
+Size: 16324
+MD5Sum: d49d97ff3557bd2e859a8df6fccc65a3
+SHA256sum: 704865499bc2e66e57d2672784cbe3375032458b90e1e5dd4d196ccf429eae9e
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
+
+Package: kmod-oaf
+Version: 6.6.110-r1
+Depends: kernel (=6.6.110~484466e2719a743506c36b4bb2103582-r1), kmod-ipt-conntrack
+Source: feeds/base/OpenAppFilter/oaf
+SourceName: oaf
+Section: TT Apps
+SourceDateEpoch: 1756570536
+Architecture: x86_64
+Installed-Size: 532480
+Filename: /root/paquetes/kmod-oaf_6.6.110-r1_x86_64.ipk
+Size: 142587
+MD5Sum: 077aa687e68d19a3baf102ca61757b5d
+SHA256sum: e110155996927a3ef680881ba64066d5c1d750b9c69076d9ac18b3bd754a524c
+Description:  open appfilter kernel module 
+
+Package: luci-app-bandix
+Version: 0.7.2-r1
+Depends: libc, luci-base, luci-lib-jsonc, curl, bandix
+Source: /root/app/VsCodeProjects/openwrt-packages-custom/luci-app-bandix/luci-app-bandix
+SourceName: luci-app-bandix
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1761206599
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 204800
+Filename: /root/paquetes/luci-app-bandix_0.7.2-r1_all.ipk
+Size: 40781
+MD5Sum: a1470ec237c3d5ee646829ea5858cc38
+SHA256sum: 245635c65c7b384eca0eb81bec8bb4bca0a289b4dbae81710326bd8c1cd7ed37
+Description:  LuCI Bandix app for network traffic monitoring
+
+Package: luci-app-cpu-status
+Version: 0.6.1-r1
+Depends: libc
+Source: /mounts/storage/Projects/OpenWRT/Projects/luci-app-cpu-status/_GitHub/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1743113504
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: /root/paquetes/luci-app-cpu-status_0.6.1-r1_all.ipk
+Size: 6539
+MD5Sum: 7145d160bfa5ff237664d3bbbffb855a
+SHA256sum: 70cc0b9da77bce6cd5786606158b79b76029e01900b6b836c87f552b6df91f1e
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-diskman
+Version: v0.2.11
+Depends: libc, e2fsprogs, parted, smartmontools, blkid
+Architecture: all
+Maintainer: lisaac<lisaac.cn@gmail.com>
+Section: base
+Priority: optional
+Filename: /root/paquetes/luci-app-diskman_v0.2.11_all.ipk
+Size: 24756
+MD5Sum: 3e7d689e061017ea694c7125537995bb
+SHA256sum: b404fc16b315201425413cd5a8a2c0038482c99aff75c9ee8a29e47e0db987fc
+Description: Disk Manager interface for LuCI
+Source: http://github.com/lisaac/luci-app-diskman
+
+Package: luci-app-disks-info
+Version: 0.5.0-r1
+Depends: libc, fdisk, smartmontools, smartmontools-drivedb
+Source: /mounts/storage/Projects/OpenWRT/Projects/luci-app-disks-info/_GitHub/luci-app-disks-info
+SourceName: luci-app-disks-info
+License: MIT
+Section: luci
+SourceDateEpoch: 1742079942
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: /root/paquetes/luci-app-disks-info_0.5.0-r1_all.ipk
+Size: 8007
+MD5Sum: 1015067317ec8341452a744602be0284
+SHA256sum: 2c4127d7d5a6328fa0a83811409501451c401b11512d230208908f7799af3c62
+Description:  Information about connected disk devices (partitions, filesystems, SMART).
+
+Package: luci-app-oaf
+Version: 6.1.2-r1
+Depends: libc, appfilter, luci-compat, luci-lua-runtime
+Source: feeds/base/OpenAppFilter/luci-app-oaf
+SourceName: luci-app-oaf
+Section: luci
+SourceDateEpoch: 1756570536
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3635200
+Filename: /root/paquetes/luci-app-oaf_6.1.2-r1_all.ipk
+Size: 2475511
+MD5Sum: 38a93b3598395f98113b13784dc89942
+SHA256sum: 7f5b9b65a05e0fbe668d97c4cf24f7758302e0425a99312e039a34d5481010c6
+Description:  LuCI support for OAF
+
